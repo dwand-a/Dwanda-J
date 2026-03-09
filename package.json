@@ -2,7 +2,7 @@
   "name": "dwanda-s-portfolio",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://dwand-a.github.io/Dwanda-J/",
+  "homepage": "https://github.com/dwand-a/Dwanda-J.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
