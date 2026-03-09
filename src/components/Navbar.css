@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  color: #e6007e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Nav Links Container */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* Base Link Styling */
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  color: #e6007e;
+  transform: translateY(-2px);
+}
+
+/* Animated Underline */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #e6007e;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Active Link Styling */
+.nav-links a.active {
+  color: #e6007e;
+  font-weight: 700;
+}
+
+.nav-links a.active::after {
+  width: 100%;
+}

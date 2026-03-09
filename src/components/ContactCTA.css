@@ -1,0 +1,34 @@
+.cta {
+  padding: 120px 8%;
+  background: #f8f6f9;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta-content p {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cta-btn {
+  background: #e6007e;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(230, 0, 126, 0.3);
+}
