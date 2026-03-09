@@ -13,7 +13,7 @@ const Skills = () => {
 
         <div className="skill-card" data-aos="fade-up">
           <FaCode className="icon" />
-          <h3>React.js & JavaScript</h3>
+          <h3>React & JavaScript</h3>
           <p>Building modern, responsive web applications with React and JavaScript</p>
         </div>
 
