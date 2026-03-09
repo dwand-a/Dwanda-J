@@ -107,7 +107,7 @@ const Project = () => {
 
             <div className="project-links">
               <a
-                href="https://github.com/dwand-a/Dwanda-s-Portfolio.git"
+                href="https://github.com/dwand-a/Dwanda-J.git"
                 target="_blank"
                 rel="noopener noreferrer"
               >
