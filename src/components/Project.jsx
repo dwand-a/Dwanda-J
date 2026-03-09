@@ -66,7 +66,7 @@ const Project = () => {
           <div className="project-content">
             <h3>GigBoard - Student E-commerce Platform</h3>
             <p>
-              CHIPS Club competition marketplace for student-made products.
+              CHIPS Club Website competition. Student marketplace for hand-made products.
               Built using HTML, CSS and JavaScript with GitHub collaboration.
             </p>
 
